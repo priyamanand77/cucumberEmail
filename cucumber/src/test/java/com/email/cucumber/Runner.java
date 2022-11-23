@@ -6,7 +6,7 @@ import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"Feature"} , glue = {"com.amazon.cucumber"})
+@CucumberOptions(features = {"Feature"} , glue = {"com.email.cucumber"})
 public class Runner {
 
 }
