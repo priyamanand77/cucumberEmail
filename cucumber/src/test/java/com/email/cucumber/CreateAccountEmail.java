@@ -67,31 +67,27 @@ try {
 
 		w.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//span[contains(text(),'Next')]")));
 		driver.findElement(By.xpath("//span[contains(text(),'Next')]")).click();
-//		try {
-//			Thread.sleep(30000);
-//		} catch (InterruptedException e) {
-//		}
-////		driver.findElement(By.xpath("//input[@class='whsOnd zHQkBf']")).sendKeys("123456");
-//		w.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
-//				"//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']//span[contains(text(),'Verify')]")));
-//		driver.findElement(By.xpath(
-//				"//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']//span[contains(text(),'Verify')]"))
-//				.click();
-//
-//		driver.findElement(By.xpath("//div[contains(text(),'Day')]")).sendKeys("14");
-//
-//		Select sel = new Select(driver.findElement(By.xpath("//select[@id='month']")));
-//		sel.selectByVisibleText("March");
-//		driver.findElement(By.xpath("//div[contains(text(),'Year')]")).sendKeys("2000");
-//		Select sel2 = new Select(driver.findElement(By.xpath("//select[@id='gender']")));
-//		sel2.selectByVisibleText("Male");
-//
-//		w.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
-//				"//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']//span")));
-//
-//		driver.findElement(By.xpath(
-//				"//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']//span"))
-//				.click();
+//		driver.findElement(By.xpath("//input[@class='whsOnd zHQkBf']")).sendKeys("123456");
+		w.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
+				"//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']//span[contains(text(),'Verify')]")));
+		driver.findElement(By.xpath(
+				"//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']//span[contains(text(),'Verify')]"))
+				.click();
+
+		driver.findElement(By.xpath("//div[contains(text(),'Day')]")).sendKeys("14");
+
+		Select sel = new Select(driver.findElement(By.xpath("//select[@id='month']")));
+		sel.selectByVisibleText("March");
+		driver.findElement(By.xpath("//div[contains(text(),'Year')]")).sendKeys("2000");
+		Select sel2 = new Select(driver.findElement(By.xpath("//select[@id='gender']")));
+		sel2.selectByVisibleText("Male");
+
+		w.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(
+				"//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']//span")));
+
+		driver.findElement(By.xpath(
+				"//button[@class='VfPpkd-LgbsSe VfPpkd-LgbsSe-OWXEXe-k8QpJ VfPpkd-LgbsSe-OWXEXe-dgl2Hf nCP5yc AjY5Oe DuMIQc LQeN7 qIypjc TrZEUc lw1w4b']//span"))
+				.click();
 
 	}
 
